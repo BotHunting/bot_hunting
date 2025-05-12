@@ -63,7 +63,7 @@
                             <a href="https://www.instagram.com/bot.hunting" target="_blank" class="social-link" data-tooltip="Follow on Instagram">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a href="https://www.facebook.com/bot.hunty/" target="_blank" class="social-link" data-tooltip="Follow on Facebook">
+                            <a href="https://www.facebook.com/b0t.hunting/" target="_blank" class="social-link" data-tooltip="Follow on Facebook">
                                 <i class="fab fa-facebook"></i>
                             </a>
                             <a href="https://www.youtube.com/@bot.hunting" target="_blank" class="social-link" data-tooltip="Subscribe on YouTube">
@@ -99,7 +99,7 @@
         <div class="container">
             <h2 class="section-title text-center mb-5">My Portfolio</h2>
             <div class="row g-4">
-                <!-- Portfolio cards with hover effects -->
+                <!-- HRM Project -->
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
@@ -107,13 +107,20 @@
                             <div class="portfolio-overlay">
                                 <h5>SIM Human Resource Management</h5>
                                 <p>Sistem Informasi CV. Saksana Antakara</p>
-                                <a href="https://southern-rough-war.glitch.me/" class="btn btn-light" target="_blank">
-                                    View Project <i class="fas fa-external-link-alt"></i>
-                                </a>
+                                <div class="portfolio-buttons">
+                                    <a href="https://github.com/BotHunting/hrm" class="btn btn-light me-2" target="_blank">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                    <a href="https://southern-rough-war.glitch.me/" class="btn btn-light" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Dishub Project -->
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
@@ -121,13 +128,20 @@
                             <div class="portfolio-overlay">
                                 <h5>SIM Dishub</h5>
                                 <p>Sistem Informasi Dinas Perhubungan Fakfak</p>
-                                <a href="https://rigorous-cyclic-psychiatrist.glitch.me/" class="btn btn-light" target="_blank">
-                                    View Project <i class="fas fa-external-link-alt"></i>
-                                </a>
+                                <div class="portfolio-buttons">
+                                    <a href="https://github.com/BotHunting/sim_dishub" class="btn btn-light me-2" target="_blank">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                    <a href="https://rigorous-cyclic-psychiatrist.glitch.me/" class="btn btn-light" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Perpustakaan Project -->
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
@@ -135,13 +149,20 @@
                             <div class="portfolio-overlay">
                                 <h5>Perpustakaan</h5>
                                 <p>Website Management Perpustakaan</p>
-                                <a href="https://abrasive-glamorous-heath.glitch.me/" class="btn btn-light" target="_blank">
-                                    View Project <i class="fas fa-external-link-alt"></i>
-                                </a>
+                                <div class="portfolio-buttons">
+                                    <a href="https://github.com/BotHunting/perpus_web" class="btn btn-light me-2" target="_blank">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                    <a href="https://abrasive-glamorous-heath.glitch.me/" class="btn btn-light" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Rekom PKB Project -->
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
@@ -149,13 +170,20 @@
                             <div class="portfolio-overlay">
                                 <h5>Rekom PKB</h5>
                                 <p>Sistem Informasi Rekom UPT PKB Gresik</p>
-                                <a href="https://superficial-unequaled-anemone.glitch.me/" class="btn btn-light" target="_blank">
-                                    View Project <i class="fas fa-external-link-alt"></i>
-                                </a>
+                                <div class="portfolio-buttons">
+                                    <a href="https://github.com/BotHunting/uptpkb" class="btn btn-light me-2" target="_blank">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                    <a href="https://superficial-unequaled-anemone.glitch.me/" class="btn btn-light" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- CCTV Project -->
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
@@ -163,13 +191,20 @@
                             <div class="portfolio-overlay">
                                 <h5>CCTV</h5>
                                 <p>CCTV Kantoor</p>
-                                <a href="https://vigorous-subdued-clementine.glitch.me/" class="btn btn-light" target="_blank">
-                                    View Project <i class="fas fa-external-link-alt"></i>
-                                </a>
+                                <div class="portfolio-buttons">
+                                    <a href="https://github.com/BotHunting/cctv" class="btn btn-light me-2" target="_blank">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                    <a href="https://vigorous-subdued-clementine.glitch.me/" class="btn btn-light" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Webcam Project -->
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
@@ -177,9 +212,35 @@
                             <div class="portfolio-overlay">
                                 <h5>Webcam</h5>
                                 <p>Webcam Deteksi Wajah</p>
-                                <a href="https://automatic-alpine-morning.glitch.me/" class="btn btn-light" target="_blank">
-                                    View Project <i class="fas fa-external-link-alt"></i>
-                                </a>
+                                <div class="portfolio-buttons">
+                                    <a href="https://github.com/BotHunting/webcam" class="btn btn-light me-2" target="_blank">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                    <a href="https://automatic-alpine-morning.glitch.me/" class="btn btn-light" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hotel Project -->
+                <div class="col-md-4">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/hotel.png?v=1747037403923" alt="Aplikasi Hotel">
+                            <div class="portfolio-overlay">
+                                <h5>Hotel Management System</h5>
+                                <p>Sistem Informasi Manajemen Hotel</p>
+                                <div class="portfolio-buttons">
+                                    <a href="https://github.com/BotHunting/Aplikasi-Hotel" class="btn btn-light me-2" target="_blank">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                    <a href="https://your-hotel-demo-url.com" class="btn btn-light" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
