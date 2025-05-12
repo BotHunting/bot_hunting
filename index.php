@@ -52,7 +52,7 @@
                 <div class="col-lg-8 text-center text-lg-start animate__animated animate__fadeInRight">
                     <h1 class="display-4 fw-bold mb-3">Faris Al-Zubaidi</h1>
                     <p class="lead typed-text mb-4"></p>
-                    <p class="bio mb-4">Passionate developer creating innovative web solutions</p>
+                    <p class="bio mb-4">Sedang mendalami sistem informasi, terutama terkait transportasi dan pengujian kendaraan</p>
                     
                     <!-- Social Links -->
                     <div class="social-links-wrapper">
