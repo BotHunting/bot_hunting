@@ -57,6 +57,9 @@
                     <!-- Social Links -->
                     <div class="social-links-wrapper">
                         <div class="social-links d-flex justify-content-center justify-content-lg-start gap-3 flex-wrap">
+                            <a href="https://github.com/BotHunting" target="_blank" class="social-link" data-tooltip="Follow on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
                             <a href="https://www.tiktok.com/@bot.hunting" target="_blank" class="social-link" data-tooltip="Follow on TikTok">
                                 <i class="fab fa-tiktok"></i>
                             </a>
