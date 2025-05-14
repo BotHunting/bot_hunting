@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bot Hunting Company Limited</title>
-    <link rel="icon" href="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/BH.png?v=1723717480291" type="image/png">
+    <link rel="icon" href="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/BH.png?v=1723717480291"
+        type="image/png" />
     <!-- Bootstrap 5.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -20,7 +22,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/BH.png?v=1723717480291" alt="Logo" width="40" class="me-2">
+                <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/BH.png?v=1723717480291"
+                    alt="Logo" width="40" class="me-2" />
                 Bot Hunting
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -29,9 +32,15 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -43,7 +52,8 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-4 text-center mb-5 mb-lg-0">
                     <div class="profile-wrapper">
-                        <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/faris.jpg?v=1744796696157" alt="Foto Profil Faris" class="profile-image animate__animated animate__fadeInLeft">
+                        <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/faris.jpg?v=1744796696157"
+                            alt="Foto Profil Faris" class="profile-image animate__animated animate__fadeInLeft" />
                         <div class="profile-badge">
                             <span class="badge bg-success">Available for Freelance</span>
                         </div>
@@ -52,41 +62,54 @@
                 <div class="col-lg-8 text-center text-lg-start animate__animated animate__fadeInRight">
                     <h1 class="display-4 fw-bold mb-3">Faris Al-Zubaidi</h1>
                     <p class="lead typed-text mb-4"></p>
-                    <p class="bio mb-4">Sedang mendalami sistem informasi, terutama terkait transportasi dan pengujian kendaraan</p>
-                    
+                    <p class="bio mb-4">
+                        Sedang mendalami sistem informasi, terutama terkait transportasi
+                        dan pengujian kendaraan
+                    </p>
+
                     <!-- Social Links -->
                     <div class="social-links-wrapper">
-                        <div class="social-links d-flex justify-content-center justify-content-lg-start gap-3 flex-wrap">
-                            <a href="https://github.com/BotHunting" target="_blank" class="social-link" data-tooltip="Follow on GitHub">
+                        <div
+                            class="social-links d-flex justify-content-center justify-content-lg-start gap-3 flex-wrap">
+                            <a href="https://github.com/BotHunting" target="_blank" class="social-link"
+                                data-tooltip="Follow on GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://www.tiktok.com/@bot.hunting" target="_blank" class="social-link" data-tooltip="Follow on TikTok">
+                            <a href="https://www.tiktok.com/@bot.hunting" target="_blank" class="social-link"
+                                data-tooltip="Follow on TikTok">
                                 <i class="fab fa-tiktok"></i>
                             </a>
-                            <a href="https://www.instagram.com/bot.hunting" target="_blank" class="social-link" data-tooltip="Follow on Instagram">
+                            <a href="https://www.instagram.com/bot.hunting" target="_blank" class="social-link"
+                                data-tooltip="Follow on Instagram">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a href="https://www.facebook.com/b0t.hunting/" target="_blank" class="social-link" data-tooltip="Follow on Facebook">
+                            <a href="https://www.facebook.com/b0t.hunting/" target="_blank" class="social-link"
+                                data-tooltip="Follow on Facebook">
                                 <i class="fab fa-facebook"></i>
                             </a>
-                            <a href="https://www.youtube.com/@bot.hunting" target="_blank" class="social-link" data-tooltip="Subscribe on YouTube">
+                            <a href="https://www.youtube.com/@bot.hunting" target="_blank" class="social-link"
+                                data-tooltip="Subscribe on YouTube">
                                 <i class="fab fa-youtube"></i>
                             </a>
-                            <a href="https://www.twitch.tv/bot_hunting" target="_blank" class="social-link" data-tooltip="Follow on Twitch">
+                            <a href="https://www.twitch.tv/bot_hunting" target="_blank" class="social-link"
+                                data-tooltip="Follow on Twitch">
                                 <i class="fab fa-twitch"></i>
                             </a>
-                            <a href="https://x.com/bot_hunting" target="_blank" class="social-link" data-tooltip="Follow on Twitter">
+                            <a href="https://x.com/bot_hunting" target="_blank" class="social-link"
+                                data-tooltip="Follow on Twitter">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="https://shopee.co.id/nia_junaidi" target="_blank" class="social-link" data-tooltip="Shop on Shopee">
+                            <a href="https://shopee.co.id/nia_junaidi" target="_blank" class="social-link"
+                                data-tooltip="Shop on Shopee">
                                 <i class="fas fa-shopping-bag"></i>
                             </a>
-                            <a href="https://discord.gg/a4tEY45Trz" target="_blank" class="social-link" data-tooltip="Join Discord">
+                            <a href="https://discord.gg/a4tEY45Trz" target="_blank" class="social-link"
+                                data-tooltip="Join Discord">
                                 <i class="fab fa-discord"></i>
                             </a>
                         </div>
                     </div>
-                    
+
                     <!-- CTA Buttons -->
                     <div class="cta-buttons mt-5 d-flex justify-content-center justify-content-lg-start gap-3">
                         <a href="#portfolio" class="btn btn-primary btn-lg">View Portfolio</a>
@@ -106,15 +129,18 @@
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
-                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/sim-sa.png?v=1723717495983" alt="SIM HR Management">
+                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/sim-sa.png?v=1723717495983"
+                                alt="SIM HR Management" />
                             <div class="portfolio-overlay">
                                 <h5>SIM Human Resource Management</h5>
                                 <p>Sistem Informasi CV. Saksana Antakara</p>
                                 <div class="portfolio-buttons">
-                                    <a href="https://github.com/BotHunting/hrm" class="btn btn-light me-2" target="_blank">
+                                    <a href="https://github.com/BotHunting/hrm" class="btn btn-light me-2"
+                                        target="_blank">
                                         <i class="fab fa-github"></i> Source Code
                                     </a>
-                                    <a href="https://southern-rough-war.glitch.me/" class="btn btn-light" target="_blank">
+                                    <a href="https://southern-rough-war.glitch.me/" class="btn btn-light"
+                                        target="_blank">
                                         <i class="fas fa-external-link-alt"></i> Live Demo
                                     </a>
                                 </div>
@@ -127,15 +153,18 @@
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
-                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/sim-dishub.png?v=1723717493246" alt="SIM Dishub">
+                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/sim-dishub.png?v=1723717493246"
+                                alt="SIM Dishub" />
                             <div class="portfolio-overlay">
                                 <h5>SIM Dishub</h5>
                                 <p>Sistem Informasi Dinas Perhubungan Fakfak</p>
                                 <div class="portfolio-buttons">
-                                    <a href="https://github.com/BotHunting/sim_dishub" class="btn btn-light me-2" target="_blank">
+                                    <a href="https://github.com/BotHunting/sim_dishub" class="btn btn-light me-2"
+                                        target="_blank">
                                         <i class="fab fa-github"></i> Source Code
                                     </a>
-                                    <a href="https://rigorous-cyclic-psychiatrist.glitch.me/" class="btn btn-light" target="_blank">
+                                    <a href="https://rigorous-cyclic-psychiatrist.glitch.me/" class="btn btn-light"
+                                        target="_blank">
                                         <i class="fas fa-external-link-alt"></i> Live Demo
                                     </a>
                                 </div>
@@ -148,15 +177,18 @@
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
-                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/perpus.png?v=1723717487437" alt="Perpustakaan">
+                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/perpus.png?v=1723717487437"
+                                alt="Perpustakaan" />
                             <div class="portfolio-overlay">
                                 <h5>Perpustakaan</h5>
                                 <p>Website Management Perpustakaan</p>
                                 <div class="portfolio-buttons">
-                                    <a href="https://github.com/BotHunting/perpus_web" class="btn btn-light me-2" target="_blank">
+                                    <a href="https://github.com/BotHunting/perpus_web" class="btn btn-light me-2"
+                                        target="_blank">
                                         <i class="fab fa-github"></i> Source Code
                                     </a>
-                                    <a href="https://abrasive-glamorous-heath.glitch.me/" class="btn btn-light" target="_blank">
+                                    <a href="https://abrasive-glamorous-heath.glitch.me/" class="btn btn-light"
+                                        target="_blank">
                                         <i class="fas fa-external-link-alt"></i> Live Demo
                                     </a>
                                 </div>
@@ -169,15 +201,18 @@
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
-                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/rekom-pkb.jpg?v=1723717489779" alt="Rekom PKB">
+                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/rekom-pkb.jpg?v=1723717489779"
+                                alt="Rekom PKB" />
                             <div class="portfolio-overlay">
                                 <h5>Rekom PKB</h5>
                                 <p>Sistem Informasi Rekom UPT PKB Gresik</p>
                                 <div class="portfolio-buttons">
-                                    <a href="https://github.com/BotHunting/uptpkb" class="btn btn-light me-2" target="_blank">
+                                    <a href="https://github.com/BotHunting/uptpkb" class="btn btn-light me-2"
+                                        target="_blank">
                                         <i class="fab fa-github"></i> Source Code
                                     </a>
-                                    <a href="https://superficial-unequaled-anemone.glitch.me/" class="btn btn-light" target="_blank">
+                                    <a href="https://superficial-unequaled-anemone.glitch.me/" class="btn btn-light"
+                                        target="_blank">
                                         <i class="fas fa-external-link-alt"></i> Live Demo
                                     </a>
                                 </div>
@@ -190,15 +225,18 @@
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
-                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/cctv.png?v=1744629948090" alt="CCTV">
+                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/cctv.png?v=1744629948090"
+                                alt="CCTV" />
                             <div class="portfolio-overlay">
                                 <h5>CCTV</h5>
                                 <p>CCTV Kantoor</p>
                                 <div class="portfolio-buttons">
-                                    <a href="https://github.com/BotHunting/cctv" class="btn btn-light me-2" target="_blank">
+                                    <a href="https://github.com/BotHunting/cctv" class="btn btn-light me-2"
+                                        target="_blank">
                                         <i class="fab fa-github"></i> Source Code
                                     </a>
-                                    <a href="https://vigorous-subdued-clementine.glitch.me/" class="btn btn-light" target="_blank">
+                                    <a href="https://vigorous-subdued-clementine.glitch.me/" class="btn btn-light"
+                                        target="_blank">
                                         <i class="fas fa-external-link-alt"></i> Live Demo
                                     </a>
                                 </div>
@@ -211,15 +249,18 @@
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
-                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/webcam.PNG?v=1746560169667" alt="Webcam">
+                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/webcam.PNG?v=1746560169667"
+                                alt="Webcam" />
                             <div class="portfolio-overlay">
                                 <h5>Webcam</h5>
                                 <p>Webcam Deteksi Wajah</p>
                                 <div class="portfolio-buttons">
-                                    <a href="https://github.com/BotHunting/webcam" class="btn btn-light me-2" target="_blank">
+                                    <a href="https://github.com/BotHunting/webcam" class="btn btn-light me-2"
+                                        target="_blank">
                                         <i class="fab fa-github"></i> Source Code
                                     </a>
-                                    <a href="https://automatic-alpine-morning.glitch.me/" class="btn btn-light" target="_blank">
+                                    <a href="https://automatic-alpine-morning.glitch.me/" class="btn btn-light"
+                                        target="_blank">
                                         <i class="fas fa-external-link-alt"></i> Live Demo
                                     </a>
                                 </div>
@@ -232,12 +273,14 @@
                 <div class="col-md-4">
                     <div class="portfolio-card">
                         <div class="portfolio-img">
-                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/hotel.png?v=1747037403923" alt="Aplikasi Hotel">
+                            <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/hotel.png?v=1747037403923"
+                                alt="Aplikasi Hotel" />
                             <div class="portfolio-overlay">
                                 <h5>Hotel Management System</h5>
                                 <p>Sistem Informasi Manajemen Hotel</p>
                                 <div class="portfolio-buttons">
-                                    <a href="https://github.com/BotHunting/Aplikasi-Hotel" class="btn btn-light me-2" target="_blank">
+                                    <a href="https://github.com/BotHunting/Aplikasi-Hotel" class="btn btn-light me-2"
+                                        target="_blank">
                                         <i class="fab fa-github"></i> Source Code
                                     </a>
                                     <a href="https://your-hotel-demo-url.com" class="btn btn-light" target="_blank">
@@ -291,7 +334,8 @@
                                     <p>If you find my work helpful, consider supporting me!</p>
                                     <div class="support-buttons">
                                         <a href="https://trakteer.id/hunty/tip" target="_blank" class="btn btn-support">
-                                            <img src="https://cdn.trakteer.id/images/embed/trbtn-icon.png" alt="Trakteer" height="28">
+                                            <img src="https://cdn.trakteer.id/images/embed/trbtn-icon.png"
+                                                alt="Trakteer" height="28" />
                                             Support on Trakteer
                                         </a>
                                     </div>
@@ -306,7 +350,8 @@
 
     <!-- Trakteer iframe -->
     <div class="trakteer-container">
-        <iframe src="https://stream.trakteer.id/notification/index.html?key=trstream-Q3jtXqcxH7niIZL0itlg&unit=Pentol&mod=3&hash=eml73oqgxdx5d9qb"
+        <iframe
+            src="https://stream.trakteer.id/notification/index.html?key=trstream-Q3jtXqcxH7niIZL0itlg&unit=Pentol&mod=3&hash=eml73oqgxdx5d9qb"
             frameborder="0" allowfullscreen></iframe>
     </div>
 
@@ -316,10 +361,13 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="footer-brand">
-                        <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/BH.png?v=1723717480291" alt="Logo" width="40" class="me-2">
+                        <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/BH.png?v=1723717480291"
+                            alt="Logo" width="40" class="me-2" />
                         <h5>Bot Hunting</h5>
                     </div>
-                    <p class="footer-text">Creating innovative solutions through technology</p>
+                    <p class="footer-text">
+                        Creating innovative solutions through technology
+                    </p>
                 </div>
                 <div class="col-lg-4">
                     <h5 class="footer-title">Quick Links</h5>
@@ -332,15 +380,19 @@
                 <div class="col-lg-4">
                     <h5 class="footer-title">Follow Me</h5>
                     <div class="footer-social">
-                        <a href="https://www.instagram.com/bot.hunting" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.youtube.com/@bot.hunting" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/bot.hunting" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@bot.hunting" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
                         <a href="https://www.tiktok.com/@bot.hunting" target="_blank"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p class="text-center mb-0">
-                    Copyright &copy; <?php echo date("Y"); ?> Bot Hunting Company Limited. All rights reserved.
+                    Copyright &copy;
+                    <?php echo date("Y"); ?>
+                    Bot Hunting Company Limited. All rights reserved.
                 </p>
             </div>
         </div>
@@ -350,36 +402,43 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://assets.trakteer.id/js/trbtn-overlay.min.js"></script>
-    <script type='text/javascript' class='troverlay'>
+    <script type="text/javascript" class="troverlay">
         (function () {
-            var trbtnId = trbtnOverlay.init('Support Me', '#FFC147', 'https://trakteer.id/hunty/tip/embed/modal', 'https://cdn.trakteer.id/images/embed/trbtn-icon.png?date=18-11-2023', '35', 'floating-right');
+            var trbtnId = trbtnOverlay.init(
+                "Support Me",
+                "#FFC147",
+                "https://trakteer.id/hunty/tip/embed/modal",
+                "https://cdn.trakteer.id/images/embed/trbtn-icon.png?date=18-11-2023",
+                "35",
+                "floating-right"
+            );
             trbtnOverlay.draw(trbtnId);
         })();
     </script>
     <script>
         $(document).ready(function () {
             // Animasi masuk pada card
-            $('.card').each(function (index) {
-                $(this).addClass('animate__delay-' + (index + 1) + 's');
+            $(".card").each(function (index) {
+                $(this).addClass("animate__delay-" + (index + 1) + "s");
             });
         });
 
         // Add to your existing scripts
-        document.addEventListener('DOMContentLoaded', function() {
-            const texts = ['Web Developer', 'Freelancer', 'Content Creator'];
+        document.addEventListener("DOMContentLoaded", function () {
+            const texts = ["Web Developer", "Freelancer", "Content Creator"];
             let count = 0;
             let index = 0;
-            let currentText = '';
-            let letter = '';
-            
+            let currentText = "";
+            let letter = "";
+
             (function type() {
                 if (count === texts.length) {
                     count = 0;
                 }
                 currentText = texts[count];
                 letter = currentText.slice(0, ++index);
-                
-                document.querySelector('.typed-text').textContent = letter;
+
+                document.querySelector(".typed-text").textContent = letter;
                 if (letter.length === currentText.length) {
                     count++;
                     index = 0;
@@ -390,6 +449,8 @@
             })();
         });
     </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5075215899146567"crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5075215899146567"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

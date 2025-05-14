@@ -1,34 +1,55 @@
-/*
-  This is your site JavaScript code - you can add interactivity!
-*/
+/**
+ * Main JavaScript file for website interactivity
+ */
 
-// Print a message in the browser's dev tools console each time the page loads
-// Use your menus or right-click / control-click and choose "Inspect" > "Console"
-console.log("Hello 🌎");
+// Initialize when DOM is fully loaded
+document.addEventListener('DOMContentLoaded', () => {
+    initializeButton();
+    console.log("Website initialized 🚀");
+});
 
-/* 
-Make the "Click me!" button move when the visitor clicks it:
-- First add the button to the page by following the steps in the TODO 🚧
-*/
-const btn = document.querySelector("button"); // Get the button from the page
-if (btn) { // Detect clicks on the button
-  btn.onclick = function () {
-    // The 'dipped' class in style.css changes the appearance on click
-    btn.classList.toggle("dipped");
-  };
+/**
+ * Button interaction functionality
+ */
+function initializeButton() {
+    const btn = document.querySelector("button");
+    
+    if (!btn) {
+        console.warn("Button element not found in the document");
+        return;
+    }
+
+    btn.addEventListener('click', () => {
+        btn.classList.toggle("dipped");
+        
+        // Add animation effect
+        btn.style.transform = `translate(${Math.random() * 100}px, ${Math.random() * 100}px)`;
+        
+        // Reset position after animation
+        setTimeout(() => {
+            btn.style.transform = 'none';
+        }, 500);
+    });
 }
 
-
-// ----- GLITCH STARTER PROJECT HELPER CODE -----
-
-// Open file when the link in the preview is clicked
-let goto = (file, line) => {
-  window.parent.postMessage(
-    { type: "glitch/go-to-line", payload: { filePath: file, line: line } }, "*"
-  );
+/**
+ * File navigation helper
+ * @param {string} file - File path
+ * @param {number} line - Line number
+ */
+const navigateToFile = (file, line) => {
+    window.parent.postMessage({
+        type: "glitch/go-to-line",
+        payload: { 
+            filePath: file, 
+            line: line 
+        }
+    }, "*");
 };
-// Get the file opening button from its class name
-const filer = document.querySelectorAll(".fileopener");
-filer.forEach((f) => {
-  f.onclick = () => { goto(f.dataset.file, f.dataset.line); };
+
+// Initialize file openers
+document.querySelectorAll(".fileopener").forEach(opener => {
+    opener.addEventListener('click', () => {
+        navigateToFile(opener.dataset.file, opener.dataset.line);
+    });
 });
