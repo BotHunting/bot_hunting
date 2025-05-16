@@ -451,6 +451,14 @@
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5075215899146567"
         crossorigin="anonymous"></script>
+    <!-- Uptime monitoring -->
+    <script>
+        setInterval(function () {
+            fetch('https://flying-classy-sage.glitch.me/ping')
+                .then(response => console.log('Site is online'))
+                .catch(error => console.error('Connection error:', error));
+        }, 300000); // Ping every 5 minutes
+    </script>
 </body>
 
 </html>
