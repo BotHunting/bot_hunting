@@ -48,7 +48,7 @@
 
     <!-- Background Music -->
     <audio id="bgMusic" loop>
-        <source src="bio.mp3" type="audio/mpeg">
+        <source src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/bio.mp3?v=1747741769740" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
