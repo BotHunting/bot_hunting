@@ -291,6 +291,31 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Wedding Project -->
+                <div class="col-md-4">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://cdn.glitch.global/acbb2462-e675-4bbe-9083-50441cd316fd/wedding.png?v=1747736014920"
+                                alt="Wedding Invitation" />
+                            <div class="portfolio-overlay">
+                                <h5>Digital Wedding Invitation</h5>
+                                <p>Website Undangan Pernikahan Digital</p>
+                                <div class="portfolio-buttons">
+                                    <a href="https://github.com/BotHunting/wedding" class="btn btn-light me-2"
+                                        target="_blank">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                    <a href="https://boggy-tidal-sesame.glitch.me/" class="btn btn-light"
+                                        target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
