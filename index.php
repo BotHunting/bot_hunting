@@ -64,7 +64,7 @@
                     <p class="lead typed-text mb-4"></p>
                     <p class="bio mb-4">
                         Sedang mendalami sistem informasi, terutama terkait transportasi
-                        dan pengujian kendaraan
+                        dan pengujian kendaraan.
                     </p>
 
                     <!-- Social Links -->
