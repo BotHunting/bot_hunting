@@ -18,6 +18,34 @@
 </head>
 
 <body>
+    <!-- Welcome Modal -->
+    <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="welcomeModalLabel">Welcome to Bot Hunting</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/BH.png?v=1723717480291"
+                         alt="Welcome" class="mb-3" style="width: 100px;">
+                    <h4>Hello! 👋</h4>
+                    <p>Welcome to my portfolio website. I'm Faris Al-Zubaidi, a Web Developer and Content Creator.</p>
+                    <p>Feel free to explore my projects and get in touch!</p>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="dontShowAgain">
+                        <label class="form-check-label" for="dontShowAgain">
+                            Don't show this again
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Let's Explore!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Background Music -->
     <audio id="bgMusic" loop>
         <source src="bio.mp3" type="audio/mpeg">
@@ -526,6 +554,35 @@
             }
         });
     </script>
+    <script>
+    // Welcome Modal functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        // Check if user has previously chosen not to show the modal
+        if (!localStorage.getItem('dontShowWelcome')) {
+            // Show modal
+            var welcomeModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
+            welcomeModal.show();
+        }
+
+        // Handle "Don't show again" checkbox
+        document.getElementById('dontShowAgain').addEventListener('change', function(e) {
+            if (e.target.checked) {
+                localStorage.setItem('dontShowWelcome', 'true');
+            } else {
+                localStorage.removeItem('dontShowWelcome');
+            }
+        });
+
+        // Play music when modal is closed
+        document.getElementById('welcomeModal').addEventListener('hidden.bs.modal', function () {
+            const music = document.getElementById('bgMusic');
+            const musicToggle = document.getElementById('musicToggle');
+            music.play().catch(function(error) {
+                console.log("Music autoplay prevented");
+            });
+        });
+    });
+</script>
 </body>
 
 </html>
