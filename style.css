@@ -481,6 +481,31 @@ body {
   }
 }
 
+/* Music Toggle Button */
+.music-toggle {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.music-toggle:hover {
+  background: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+}
+
+.music-toggle.muted .fa-volume-up:before {
+  content: "\f6a9"; /* Font Awesome mute icon */
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .hero-section {
