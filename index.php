@@ -18,6 +18,16 @@
 </head>
 
 <body>
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="bio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Music Control Button -->
+    <button id="musicToggle" class="music-toggle">
+        <i class="fas fa-volume-up"></i>
+    </button>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
@@ -483,6 +493,38 @@
                 .then(response => console.log('Site is online'))
                 .catch(error => console.error('Connection error:', error));
         }, 300000); // Ping every 5 minutes
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const music = document.getElementById('bgMusic');
+            const musicToggle = document.getElementById('musicToggle');
+            let isPlaying = false;
+
+            // Function to handle music toggle
+            function toggleMusic() {
+                if (isPlaying) {
+                    music.pause();
+                    musicToggle.classList.add('muted');
+                } else {
+                    music.play();
+                    musicToggle.classList.remove('muted');
+                }
+                isPlaying = !isPlaying;
+            }
+
+            // Add click event listener to button
+            musicToggle.addEventListener('click', toggleMusic);
+
+            // Add user interaction requirement notice
+            const playPromise = music.play();
+            if (playPromise !== undefined) {
+                playPromise.then(_ => {
+                    console.log("Autoplay started");
+                }).catch(error => {
+                    console.log("Autoplay prevented");
+                });
+            }
+        });
     </script>
 </body>
 
