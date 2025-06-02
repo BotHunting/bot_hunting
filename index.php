@@ -583,6 +583,8 @@
         });
     });
 </script>
+<script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/05/21/04/20250521042652-GKGV9YHH.js"></script>
 </body>
 
 </html>
