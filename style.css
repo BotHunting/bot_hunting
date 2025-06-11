@@ -187,6 +187,21 @@ body {
   transform: translateY(-2px);
 }
 
+/* Fix .btn-primary contrast for #portfolio button */
+.btn-primary.btn-lg[href$="#portfolio"] {
+  background-color: #005a87 !important; /* Darker blue for better contrast */
+  color: #fff !important;
+  border-color: #005a87 !important;
+}
+
+/* Optional: Add hover/focus for accessibility */
+.btn-primary.btn-lg[href$="#portfolio"]:hover,
+.btn-primary.btn-lg[href$="#portfolio"]:focus {
+  background-color: #003d5c !important;
+  border-color: #003d5c !important;
+  color: #fff !important;
+}
+
 .btn-outline-light {
   border-width: 2px;
   padding: 12px 30px;
@@ -508,22 +523,29 @@ body {
 
 /* Welcome Modal Styles */
 .modal-content {
-    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-    color: white;
-    border: none;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .modal-header {
-    border-bottom: 1px solid #444;
+  border-bottom: 1px solid #444;
 }
 
 .modal-footer {
-    border-top: 1px solid #444;
+  border-top: 1px solid #444;
 }
 
 .btn-close {
-    filter: invert(1) grayscale(100%) brightness(200%);
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Fix .trbtn-txt > span contrast */
+.trbtn-txt > span {
+  color: #222 !important; /* Much darker text for contrast */
+  text-shadow: none !important; /* Remove yellow shadow for clarity */
+  font-weight: bold;
 }
 
 /* Responsive Adjustments */
