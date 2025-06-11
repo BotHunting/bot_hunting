@@ -28,7 +28,7 @@
                 </div>
                 <div class="modal-body text-center">
                     <img src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/BH.png?v=1723717480291"
-                         alt="Welcome" class="mb-3" style="width: 100px;">
+                        alt="Welcome" class="mb-3" style="width: 100px;">
                     <h4>Hello! 👋</h4>
                     <p>Welcome to my portfolio website. I'm Faris Al-Zubaidi, a Web Developer and Content Creator.</p>
                     <p>Feel free to explore my projects and get in touch!</p>
@@ -48,7 +48,8 @@
 
     <!-- Background Music -->
     <audio id="bgMusic" loop>
-        <source src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/bio.mp3?v=1747741769740" type="audio/mpeg">
+        <source src="https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/bio.mp3?v=1747741769740"
+            type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
@@ -353,7 +354,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -454,7 +455,7 @@
             <div class="footer-bottom">
                 <p class="text-center mb-0">
                     Copyright &copy;
-                    <?php echo date("Y"); ?>
+                    2025
                     Bot Hunting Company Limited. All rights reserved.
                 </p>
             </div>
@@ -523,7 +524,7 @@
         }, 300000); // Ping every 5 minutes
     </script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const music = document.getElementById('bgMusic');
             const musicToggle = document.getElementById('musicToggle');
             let isPlaying = false;
@@ -555,36 +556,36 @@
         });
     </script>
     <script>
-    // Welcome Modal functionality
-    document.addEventListener('DOMContentLoaded', function() {
-        // Check if user has previously chosen not to show the modal
-        if (!localStorage.getItem('dontShowWelcome')) {
-            // Show modal
-            var welcomeModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
-            welcomeModal.show();
-        }
-
-        // Handle "Don't show again" checkbox
-        document.getElementById('dontShowAgain').addEventListener('change', function(e) {
-            if (e.target.checked) {
-                localStorage.setItem('dontShowWelcome', 'true');
-            } else {
-                localStorage.removeItem('dontShowWelcome');
+        // Welcome Modal functionality
+        document.addEventListener('DOMContentLoaded', function () {
+            // Check if user has previously chosen not to show the modal
+            if (!localStorage.getItem('dontShowWelcome')) {
+                // Show modal
+                var welcomeModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
+                welcomeModal.show();
             }
-        });
 
-        // Play music when modal is closed
-        document.getElementById('welcomeModal').addEventListener('hidden.bs.modal', function () {
-            const music = document.getElementById('bgMusic');
-            const musicToggle = document.getElementById('musicToggle');
-            music.play().catch(function(error) {
-                console.log("Music autoplay prevented");
+            // Handle "Don't show again" checkbox
+            document.getElementById('dontShowAgain').addEventListener('change', function (e) {
+                if (e.target.checked) {
+                    localStorage.setItem('dontShowWelcome', 'true');
+                } else {
+                    localStorage.removeItem('dontShowWelcome');
+                }
+            });
+
+            // Play music when modal is closed
+            document.getElementById('welcomeModal').addEventListener('hidden.bs.modal', function () {
+                const music = document.getElementById('bgMusic');
+                const musicToggle = document.getElementById('musicToggle');
+                music.play().catch(function (error) {
+                    console.log("Music autoplay prevented");
+                });
             });
         });
-    });
-</script>
-<script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2025/05/21/04/20250521042652-GKGV9YHH.js"></script>
+    </script>
+    <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/05/21/04/20250521042652-GKGV9YHH.js"></script>
 </body>
 
 </html>
