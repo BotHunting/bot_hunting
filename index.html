@@ -684,6 +684,9 @@
             const musicToggle = document.getElementById('musicToggle');
             let isPlaying = false;
 
+            // Set initial volume to 50%
+            music.volume = 0.5;
+
             // Function to handle music toggle
             function toggleMusic() {
                 if (isPlaying) {
