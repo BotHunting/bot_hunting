@@ -57,10 +57,6 @@ body {
 .hero-section {
   position: relative;
   padding: 160px 0 100px;
-  background: url("https://cdn.glitch.global/c5170534-8998-4d7f-90e2-39122dc32f5e/bg.png?v=1723717635112")
-    no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 /* Add overlay to make text more readable */
