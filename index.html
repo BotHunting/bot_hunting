@@ -566,15 +566,10 @@
                                 class="fab fa-youtube"></i></a>
                         <a href="https://www.tiktok.com/@bot.hunting" target="_blank" aria-label="TikTok"><i
                                 class="fab fa-tiktok"></i></a>
-                    </div>
-                    <div class="mt-4">
-                        <h5 class="footer-title">Support My Work</h5>
-                        <p class="footer-text">Jika Anda merasa pekerjaan saya bermanfaat, pertimbangkan untuk mendukung
-                            saya!</p>
-                        <a href="https://trakteer.id/hunty/tip" target="_blank" class="btn btn-support">
-                            <img src="https://cdn.trakteer.id/images/embed/trbtn-icon.png" alt="Trakteer" height="28" />
-                            Support on Trakteer
-                        </a>
+                        <script type='text/javascript'
+                            src='https://edge-cdn.trakteer.id/js/trbtn-overlay.min.js?v=14-05-2025'></script>
+                        <script type='text/javascript'
+                            class='troverlay'>(function () { var trbtnId = trbtnOverlay.init('Trakteer Kopi', '#00BCD4', 'https://trakteer.id/v1/hunty/tip/embed/modal', 'https://trakteer.id/images/mix/coffee.png', '30', 'inline'); trbtnOverlay.draw(trbtnId); })();</script>
                     </div>
                 </div>
 
@@ -644,7 +639,7 @@
     <!-- Uptime monitoring -->
     <script>
         setInterval(function () {
-            fetch('https://flying-classy-sage.glitch.me/ping')
+            fetch('https://bot-hunting.vercel.app/ping')
                 .then(response => console.log('Site is online'))
                 .catch(error => console.error('Connection error:', error));
         }, 300000); // Ping every 5 minutes
