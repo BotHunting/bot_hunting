@@ -376,7 +376,7 @@ body {
 .contact-details p {
   margin: 0;
   color: #fff;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 .contact-details a {
   color: #fff;
@@ -417,7 +417,7 @@ body {
   margin-bottom: 15px;
 }
 .support-section p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 0.9rem;
 }
 .btn-support {
@@ -465,7 +465,7 @@ body {
 }
 
 .footer-text {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 30px;
 }
 
