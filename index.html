@@ -68,7 +68,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-    <link rel="preconnect" href="https://cdn.botpress.cloud" crossorigin>
     <link rel="preconnect" href="https://cs.iubenda.com" crossorigin>
     <link rel="preconnect" href="https://cdn.iubenda.com" crossorigin>
     <link rel="preconnect" href="https://edge-cdn.trakteer.id" crossorigin>
@@ -214,7 +213,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
                         <div class="profile-wrapper position-relative">
-                            <!-- TODO: Optimize this image. The source is 1500x1500 but it's displayed at 280x280. Resize to ~560x560 (2x for retina) and convert to WebP. -->
+                            <!-- TODO: URGENT - Optimize this image. The source is 1500x1500 but displayed at ~490x490 on larger screens. Resize to ~1000x1000 (2x for retina) and convert to WebP to fix layout shifts and improve LCP. -->
                             <img src="pp.jpg" alt="Foto Profil Faris"
                                 class="profile-image" width="280" height="280" fetchpriority="high" />
                             <div class="profile-badge">
@@ -337,7 +336,7 @@
                     <div class="col-md-4">
                         <div class="portfolio-card">
                             <div class="portfolio-img">
-                                <!-- TODO: Optimize this image. Consider increasing compression or converting to WebP. -->
+                                <!-- TODO: Optimize this image. Consider increasing compression or converting to WebP for a ~52KiB saving. -->
                                 <img src="https://iili.io/qJaPeEb.th.png" alt="SIM HR Management" loading="lazy"
                                     width="400" height="250" />
                                 <div class="portfolio-overlay text-light">
@@ -362,7 +361,7 @@
                     <div class="col-md-4">
                         <div class="portfolio-card">
                             <div class="portfolio-img">
-                                <!-- TODO: Optimize this image. Consider increasing compression or converting to WebP. -->
+                                <!-- TODO: Optimize this image. Consider increasing compression or converting to WebP for a ~50KiB saving. -->
                                 <img src="https://iili.io/qJaQeDB.th.png" alt="SIM Dishub" loading="lazy" width="400"
                                     height="250" />
                                 <div class="portfolio-overlay text-light">
@@ -387,7 +386,7 @@
                     <div class="col-md-4">
                         <div class="portfolio-card">
                             <div class="portfolio-img">
-                                <!-- TODO: Optimize this image. Consider increasing compression or converting to WebP. -->
+                                <!-- TODO: Optimize this image. Consider increasing compression or converting to WebP for a ~53KiB saving. -->
                                 <img src="https://iili.io/qJatk6F.th.png" alt="Perpustakaan" loading="lazy" width="400"
                                     height="250" />
                                 <div class="portfolio-overlay text-light">
@@ -412,7 +411,7 @@
                     <div class="col-md-4">
                         <div class="portfolio-card">
                             <div class="portfolio-img">
-                                <!-- TODO: Optimize this image. Consider increasing compression or converting to WebP. -->
+                                <!-- TODO: Optimize this image. Consider increasing compression or converting to WebP for a ~33KiB saving. -->
                                 <img src="https://iili.io/qJamVvs.th.png" alt="CCTV" loading="lazy" width="400"
                                     height="250" />
                                 <div class="portfolio-overlay text-light">
@@ -437,7 +436,7 @@
                     <div class="col-md-4">
                         <div class="portfolio-card">
                             <div class="portfolio-img">
-                                <!-- TODO: Optimize this image. The source is larger than displayed. Consider increasing compression or converting to WebP. -->
+                                <!-- TODO: Optimize this image. Consider increasing compression or converting to WebP for a ~13KiB saving. -->
                                 <img src="https://store-images.s-microsoft.com/image/apps.51160.14274610339273393.3480a5e3-838b-4f58-97cc-f304bfbdab66.beb6adb2-3f63-455c-b20c-31c2e1dde2b9" alt="Webcam" loading="lazy"
                                     width="400" height="250" />
                                 <div class="portfolio-overlay text-light">
@@ -486,8 +485,8 @@
                     <div class="col-md-4">
                         <div class="portfolio-card">
                             <div class="portfolio-img">
-                                <!-- TODO: Optimize this image. The source is larger than displayed. Consider increasing compression or converting to WebP. -->
-                                <img src="https://raw.githubusercontent.com/BotHunting/wedding-v1/main/src/tumnail.png?token=GHSAT0AAAAAAD6LGLCXJZZ3JL3GEKJX5MZM2TA3WJQ" alt="Wedding Invitation"
+                                <!-- TODO: URGENT - This image is 475KiB and hosted on GitHub Raw. It is causing major performance issues. Resize it from 1409x909 to a more appropriate size, convert to WebP, and host it locally with your project files. -->
+                                <img src="https://raw.githubusercontent.com/BotHunting/wedding-v1/main/thumbnail.png" alt="Wedding Invitation"
                                     loading="lazy" width="400" height="250" />
                                 <div class="portfolio-overlay text-light">
                                     <h3>Digital Wedding Invitation</h3>
@@ -511,7 +510,7 @@
                     <div class="col-md-4">
                         <div class="portfolio-card">
                             <div class="portfolio-img">
-                                <!-- TODO: Optimize this image. The source is larger than displayed. Consider increasing compression or converting to WebP. -->
+                                <!-- TODO: Optimize this image. The source is larger than displayed. Consider resizing, increasing compression, or converting to WebP. -->
                                 <img src="https://camo.githubusercontent.com/8a9f3f2116292ddbe8f312fc555859d3de79f56401c0743b52e407f9d8bd5433/68747470733a2f2f69696c692e696f2f714a61666f46342e6d642e706e67" alt="Web Las" loading="lazy"
                                     width="400" height="250" />
                                 <div class="portfolio-overlay text-light">
@@ -535,7 +534,7 @@
                     <div class="col-md-4">
                         <div class="portfolio-card">
                             <div class="portfolio-img">
-                                <!-- TODO: Optimize this image. The source is 1042x731 but it's displayed much smaller. Consider resizing and converting to WebP. -->
+                                <!-- TODO: Optimize this image. The source is 1042x731 but it's displayed much smaller. Resize and convert to WebP. -->
                                 <img src="https://iili.io/Bgj7ETg.png" alt="Kirana Tanjung Pelakar" loading="lazy"
                                     width="400" height="250" />
                                 <div class="portfolio-overlay text-light">
