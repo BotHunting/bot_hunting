@@ -17,7 +17,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-body { scrollbar-gutter: stable; }
 
 /* Navbar Styles */
 .navbar {
