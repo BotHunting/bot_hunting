@@ -17,6 +17,7 @@ body {
   background-position: center;
   background-size: cover;
 }
+body { scrollbar-gutter: stable; }
 
 /* Navbar Styles */
 .navbar {
@@ -249,6 +250,50 @@ body {
   height: 3px;
   background-color: var(--accent-color);
 }
+
+/* Layanan Section Styles */
+.section-subtitle {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  color: #6c757d;
+}
+
+.service-card {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  text-align: center;
+  transition: var(--transition);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  border: 1px solid #eee;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(45, 52, 54, 0.1);
+}
+
+.service-icon-wrapper {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 25px;
+  background-color: rgba(0, 206, 201, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.service-card:hover .service-icon-wrapper {
+  background-color: var(--accent-color);
+}
+
+.service-card i { font-size: 30px; color: var(--accent-color); transition: var(--transition); }
+.service-card:hover i { color: white; }
+.service-title { font-size: 1.2rem; font-weight: 600; margin-bottom: 15px; color: var(--text-dark); }
+.service-description { font-size: 0.9rem; color: #555; line-height: 1.6; }
 
 .portfolio-card {
   border-radius: 15px;
